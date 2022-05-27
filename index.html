@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wojna filmów</title>
+  </head>
+  <body>
+    <div class="hero">
+      <p id="title">Wojna filmów!</p>
+    </div>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div id="left-column"></div>
+          <div id="left-info"></div>
+        </div>
+
+        <div class="column">
+          <div id="right-column"></div>
+          <div id="right-info"></div>
+        </div>
+      </div>
+      <div class="column is-half notification is-primary tutorial">
+        <h1>Wybierz film po obu stronach</h1>
+        <p>A dowiesz się, który jest lepszy</p>
+      </div>
+    </div>
+    <div class="summary"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
